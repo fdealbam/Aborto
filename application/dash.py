@@ -399,7 +399,7 @@ body = html.Div([
                     "El aborto es uno de los delitos más graves de la violencia de género que se vive en el país, "
                     "además, son problemas aún irresueltos y son tema central de la " 
                     "agenda legislativa, pero hoy alcanzan relevancia en la agenda seguridad pública del país, también. "
-                   "La violencia familiar tiene la más alta incidencia entre los delitos de género en el país."+
+                   
       " Entre 2015 y 2021 se registraron "+ str(f"{int(TOTABORTO):,}") +" casos, lo que representa una tasa de "+
        str(TASAABORTO) +" delitos por cada 100 mil habitantes. "+
                     "Este dashboard analítico se compone de una sección en la cual tratamos el aborto, observamos "
