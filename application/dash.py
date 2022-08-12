@@ -17,7 +17,7 @@ import sidetable as stb
 import datetime
 from datetime import datetime, timedelta
 from datetime import date
-import geopandas as gpd
+#import geopandas as gpd
 import flask
 import os
 
@@ -528,22 +528,21 @@ body = html.Div([
             [
                 #html.H4("Consideraciones generales "),
                 html.P(
-                    "El aborto es uno de los delitos más graves de la violencia de género que se vive en el país, "
-                    "además, son problemas aún irresueltos y son tema central de la " 
-                    "agenda legislativa, pero hoy alcanzan relevancia en la agenda seguridad pública del país, también. "
+                    "Hasta el 7 de septiembre de 2021, el aborto era uno de los delitos que podrían incluirse como parte "
+                    "de la violencia de género que se vive en el país. La Suprema Corte declaró su inconstitucionalidad "
+                    "(148/2017) en esa fecha. No obstante, como tema de salud pública es tema central de la agenda"
+                    " legislativa, aun cuando sus cifras siguen en descenso."
                    
       " Entre 2015 y 2022 se registraron "+ str(f"{int(TOTABORTO):,}") +" casos, lo que representa una tasa de "+
        str(TASAABORTO) +" delitos por cada 100 mil habitantes. "+
-                    "Este tablero analítico se compone de una sección en la cual tratamos el aborto, observamos "
-                    "su gravedad según intervalos anuales o mensuales; incluimos el análisis detallado de cuatro "
-                    "entidades con más incidencias de este delito; finalmente, comparamos los rankings por entidad "
-                    "según sumas del periódo 2015 al 2021 con las tasas por entidad del mismo intervalo. " 
-                    " "                    
-                    "Hoy existen cada vez mayor atención institucional para atender la salud social y son fuerte "
-                    "preocupación de la sociedad, esto último se evidencia en el hecho que todos seamos más vigilantes al respecto. "
-                    "No obstante, aún hace falta más acción social, sobretodo, más intervención institucional "
-                    "para diseñar estrategias efectivas de prevención y promover su denuncia. Es imperativo "
-                    "acabar con estas violencias de género. "
+                    " Este tablero analítico se compone de una sección en la cual tratamos el aborto, "
+                    "observamos su incidencia --dentro de los registros del SESNSP--, según intervalos anuales o"
+                    " mensuales; incluimos el análisis detallado de cuatro entidades con más incidencias; finalmente,"
+                    " comparamos los rankings por entidad según sumas del periodo 2015 al 2021 con las tasas por entidad"
+                    " del mismo intervalo. Hoy existen cada vez mayor atención institucional para atender la salud social"
+                    " y son fuerte preocupación de la sociedad. No obstante, aún hace falta más acción social, sobretodo,"
+                    " más intervención institucional para diseñar estrategias efectivas de prevención por cuestión de "
+                    "salud de las mujeres. "
                     "",
                     style= {"font-size":22,})], 
            
